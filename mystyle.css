@@ -1,0 +1,70 @@
+body{
+        background-color:#004D40;
+}
+h1,h2{
+	  text-align:center;
+       font-family: "roboto", white;
+       font-weight: 100;
+       font-style: normal;	
+       color:white;
+    }
+
+h1{
+	font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:40px;
+  text-shadow:5px 5px 0px pink;
+}
+
+
+
+
+table{
+	width:450px;
+	height:450px;
+	margin:25px auto;
+}
+tr{
+	 width:450px;
+	 height:150px;
+	 
+}
+
+td{
+	 width:150px;
+	 height:150px;
+	 
+}
+
+img{
+	  width:120px;
+	  height:120px;
+	  margin:15px;
+	  
+}
+
+table, tr, td{
+	    border:5px solid white;
+		border-collapse:pink;
+}
+
+button{
+	     width:100px;
+		 height:40px;
+		 font-weight:bold;
+		 background-color:#FF3D00;
+		 color:black;
+		 border:none;
+		 outline:none;
+		 border-radius:5px;
+		 box-shadow:10px 10px 20px white;
+		 
+}
+button:focus{
+	    background-color:#FF3D00;
+		color:white;		
+}
+button:hover{
+	   transform: scale(1.2); 
+}

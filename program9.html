@@ -1,0 +1,41 @@
+<html>
+  <head>
+     <link rel="stylesheet" href="mystyle.css"/>
+	 
+	 <script src="myscript.js"></script>
+	 
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Jersey+10&family=New+Amsterdam&display=swap" rel="stylesheet">
+  </head>
+  <body id="body1">
+     <h1>Tic Tac Toe</h1>
+	  <h2 id="hint">X Player Turn</h2>
+	  <audio src="audio.mp3" id="tic"></audio>
+	  <audio src="sound1.wav" id="win"></audio>
+	  <center>
+	  <button onclick="window.location.reload()">Reset Game</button>
+	  </center>
+	  
+	  <table>
+	    <tr>
+		  <td onclick="ontap(this, 0)"></td>
+		  <td onclick="ontap(this, 1)"></td>
+		  <td onclick="ontap(this, 2)"></td>
+		</tr>
+		
+		<tr>
+		  <td onclick="ontap(this, 3)"></td>
+		  <td onclick="ontap(this, 4)"></td>
+		  <td onclick="ontap(this, 5)"></td>
+		</tr>
+		
+		<tr>
+		  <td onclick="ontap(this, 6)"></td>
+		  <td onclick="ontap(this, 7)"></td>
+		  <td onclick="ontap(this, 8)"></td>
+		</tr>
+		
+	  </table>
+  </body>
+</html>
